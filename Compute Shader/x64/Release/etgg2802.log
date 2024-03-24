@@ -1,0 +1,265 @@
+﻿  Buffers.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  CleanupManager.cpp
+  CommandBuffer.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  ComputePipeline.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  ConfigParser.cpp
+  consoleoutput.cpp
+  Descriptors.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  Framebuffer.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  GraphicsPipeline.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\optional(12): warning STL4038: The contents of <optional> are available only with C++17 or later.
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  imagedecode.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\span(13): warning STL4038: The contents of <span> are available only with C++20 or later.
+G:\Compute Shader\imagedecode.h(19,63): error C2039: 'span': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : see declaration of 'std'
+G:\Compute Shader\imagedecode.h(19,51): error C2365: 'imagedecode::decode': redefinition; previous definition was 'function'
+G:\Compute Shader\imagedecode.h(14,51): message : see declaration of 'imagedecode::decode'
+G:\Compute Shader\imagedecode.h(19,67): error C2065: 'span': undeclared identifier
+G:\Compute Shader\imagedecode.h(19,68): error C2059: syntax error: 'const'
+G:\Compute Shader\imagedecode.cpp(30,76): error C2039: 'span': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\fstream(26,1): message : see declaration of 'std'
+G:\Compute Shader\imagedecode.cpp(30,64): error C2365: 'imagedecode::decode': redefinition; previous definition was 'function'
+G:\Compute Shader\imagedecode.cpp(30,80): error C2065: 'span': undeclared identifier
+G:\Compute Shader\imagedecode.cpp(30,81): error C2059: syntax error: 'const'
+G:\Compute Shader\imagedecode.cpp(31,1): error C2143: syntax error: missing ';' before '{'
+G:\Compute Shader\imagedecode.cpp(31,1): error C2447: '{': missing function header (old-style formal list?)
+  imageencode.cpp
+  ImageManager.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  Images.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  imagescale.cpp
+G:\Compute Shader\imagescale.cpp(1,10): fatal  error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  main.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  math2801.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\variant(13): warning STL4038: The contents of <variant> are available only with C++17 or later.
+G:\Compute Shader\math2801.h(19,14): error C2039: 'variant': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(26,1): message : see declaration of 'std'
+G:\Compute Shader\math2801.h(19,21): error C2143: syntax error: missing ';' before '<'
+G:\Compute Shader\math2801.h(19,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(60,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(60,25): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(64,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(64,34): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(64,5): error C2535: 'math2801::vec2::vec2(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(60,5): message : see declaration of 'math2801::vec2::vec2'
+G:\Compute Shader\math2801.h(98,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(98,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(101,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(101,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(279,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(279,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(283,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(283,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(283,5): error C2535: 'math2801::uvec2::uvec2(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(279,5): message : see declaration of 'math2801::uvec2::uvec2'
+G:\Compute Shader\math2801.h(317,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(317,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(320,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(320,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(495,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(495,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(499,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(499,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(499,5): error C2535: 'math2801::ivec2::ivec2(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(495,5): message : see declaration of 'math2801::ivec2::ivec2'
+G:\Compute Shader\math2801.h(533,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(533,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(536,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(536,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(714,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(714,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(718,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(718,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(718,5): error C2535: 'math2801::dvec2::dvec2(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(714,5): message : see declaration of 'math2801::dvec2::dvec2'
+G:\Compute Shader\math2801.h(752,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(752,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(755,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(755,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(934,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(934,25): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(938,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(938,40): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(941,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(941,34): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(941,5): error C2535: 'math2801::vec3::vec3(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(934,5): message : see declaration of 'math2801::vec3::vec3'
+G:\Compute Shader\math2801.h(975,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(975,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(978,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(978,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1166,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1166,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1170,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1170,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1173,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1173,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1173,5): error C2535: 'math2801::uvec3::uvec3(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(1166,5): message : see declaration of 'math2801::uvec3::uvec3'
+G:\Compute Shader\math2801.h(1207,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1207,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1210,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1210,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1395,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1395,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1399,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1399,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1402,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1402,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1402,5): error C2535: 'math2801::ivec3::ivec3(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(1395,5): message : see declaration of 'math2801::ivec3::ivec3'
+G:\Compute Shader\math2801.h(1436,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1436,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1439,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1439,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1627,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1627,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1631,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1631,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1634,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1634,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1634,5): error C2535: 'math2801::dvec3::dvec3(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(1627,5): message : see declaration of 'math2801::dvec3::dvec3'
+G:\Compute Shader\math2801.h(1668,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1668,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1671,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1671,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1860,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1860,25): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1865,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1865,40): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1869,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1869,40): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1872,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1872,34): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1872,5): error C2535: 'math2801::vec4::vec4(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(1860,5): message : see declaration of 'math2801::vec4::vec4'
+G:\Compute Shader\math2801.h(1906,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1906,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(1909,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(1909,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2097,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2097,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2102,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2102,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2106,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2106,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2109,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2109,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2109,5): error C2535: 'math2801::uvec4::uvec4(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(2097,5): message : see declaration of 'math2801::uvec4::uvec4'
+G:\Compute Shader\math2801.h(2143,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2143,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2146,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2146,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2331,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2331,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2336,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2336,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2340,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2340,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2343,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2343,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2343,5): error C2535: 'math2801::ivec4::ivec4(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(2331,5): message : see declaration of 'math2801::ivec4::ivec4'
+G:\Compute Shader\math2801.h(2377,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2377,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2380,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2380,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2568,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2568,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2573,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2573,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2577,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2577,42): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2580,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2580,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2580,5): error C2535: 'math2801::dvec4::dvec4(const int)': member function already defined or declared
+G:\Compute Shader\math2801.h(2568,5): message : see declaration of 'math2801::dvec4::dvec4'
+G:\Compute Shader\math2801.h(2614,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2614,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2617,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2617,36): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(2840,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(2840,25): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(3039,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(3039,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(3238,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(3238,25): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(3437,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(3437,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(3636,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(3636,25): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(3835,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(3835,26): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(4033,35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(4033,35): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(4042,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(4042,33): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(4051,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(4051,30): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(4067,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(4067,33): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(4082,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(4082,32): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.h(4101,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.h(4101,52): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.cpp(58,25): error C2065: 'AnyScalar': undeclared identifier
+G:\Compute Shader\math2801.cpp(58,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.cpp(58,34): error C2988: unrecognizable template declaration/definition
+G:\Compute Shader\math2801.cpp(58,34): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.cpp(60,37): error C2760: syntax error: '>' was unexpected here; expected 'expression'
+G:\Compute Shader\math2801.cpp(60,37): error C3878: syntax error: unexpected token '>' following 'expression'
+G:\Compute Shader\math2801.cpp(60,37): message : error recovery skipped: '> ( identifier'
+G:\Compute Shader\math2801.cpp(60,42): error C2760: syntax error: ')' was unexpected here; expected 'statement'
+G:\Compute Shader\math2801.cpp(60,42): error C3878: syntax error: unexpected token ')' following 'selection_statement'
+G:\Compute Shader\math2801.cpp(60,42): message : error recovery skipped: ')'
+G:\Compute Shader\math2801.cpp(61,35): error C2065: 's': undeclared identifier
+G:\Compute Shader\math2801.cpp(62,5): error C3878: syntax error: unexpected token 'else' following 'statement_seq'
+G:\Compute Shader\math2801.cpp(62,5): message : missing one of:  '}' ?
+G:\Compute Shader\math2801.cpp(62,5): message : error recovery skipped: 'else if (  . . . ;'
+G:\Compute Shader\math2801.cpp(71,5): message : parsing resumes here
+G:\Compute Shader\math2801.cpp(99,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.cpp(99,28): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.cpp(101,38): error C2065: 'x_': undeclared identifier
+G:\Compute Shader\math2801.cpp(102,38): error C2065: 'y_': undeclared identifier
+G:\Compute Shader\math2801.cpp(105,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\Compute Shader\math2801.cpp(105,27): error C2143: syntax error: missing ',' before '&'
+G:\Compute Shader\math2801.cpp(105,7): error C2084: function 'math2801::vec2::vec2(const int)' already has a body
+G:\Compute Shader\math2801.cpp(99,7): message : see previous definition of '{ctor}'
+G:\Compute Shader\math2801.cpp(107,38): error C2065: 'v': undeclared identifier
+G:\Compute Shader\math2801.cpp(107,39): fatal  error C1003: error count exceeds 100; stopping compilation
+  mischelpers.cpp
+  parseMembers.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  Pipeline.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  platform.cpp
+  Compiling...
+  PushConstants.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  RenderPass.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  Samplers.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  ShaderManager.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  timeutil.cpp
+  Uniforms.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  utils.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  VertexManager.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  vk.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory
+  vkhelpers.cpp
+G:\Compute Shader\vk.h(13,10): fatal  error C1083: Cannot open include file: 'vulkan/vulkan.h': No such file or directory

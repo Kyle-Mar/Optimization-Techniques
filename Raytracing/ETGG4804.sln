@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ETGG4804", "ETGG4804\ETGG4804.vcxproj", "{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Debug|x64.ActiveCfg = Debug|x64
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Debug|x64.Build.0 = Debug|x64
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Debug|x86.Build.0 = Debug|Win32
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Release|x64.ActiveCfg = Release|x64
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Release|x64.Build.0 = Release|x64
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Release|x86.ActiveCfg = Release|Win32
+		{DC3B9170-356C-4D7A-97FC-3228CBF32CFD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D19DB32-18AA-490D-B5B8-CE637D773F5C}
+	EndGlobalSection
+EndGlobal

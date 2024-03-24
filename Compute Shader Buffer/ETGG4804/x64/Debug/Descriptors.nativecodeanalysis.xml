@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Descriptors.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>DescriptorSetLayout::{ctor}</FUNCTION>
+    <DECORATED>??0DescriptorSetLayout@@QEAA@PEAVVulkanContext@@AEBV?$vector@UDescriptorSetEntry@@V?$allocator@UDescriptorSetEntry@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Descriptors.cpp</FILENAME>
+      <LINE>196</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>DescriptorSet::{ctor}</FUNCTION>
+    <DECORATED>??0DescriptorSet@@AEAA@PEAVVulkanContext@@HPEAVDescriptorSetLayout@@PEAVPipelineLayout@@PEAVDescriptorSetFactory@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>168</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Descriptors.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>DescriptorSet::setSlotDoIt</FUNCTION>
+    <DECORATED>??$setSlotDoIt@PEAUVkImageView_T@@@DescriptorSet@@AEAAXHAEBQEAUVkImageView_T@@@Z</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Descriptors.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>DescriptorSet::setSlotDoIt</FUNCTION>
+    <DECORATED>??$setSlotDoIt@PEAUVkSampler_T@@@DescriptorSet@@AEAAXHAEBQEAUVkSampler_T@@@Z</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Descriptors.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>DescriptorSet::setSlotDoIt</FUNCTION>
+    <DECORATED>??$setSlotDoIt@PEAUVkBufferView_T@@@DescriptorSet@@AEAAXHAEBQEAUVkBufferView_T@@@Z</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Descriptors.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>DescriptorSet::setSlotDoIt</FUNCTION>
+    <DECORATED>??$setSlotDoIt@PEAUVkBuffer_T@@@DescriptorSet@@AEAAXHAEBQEAUVkBuffer_T@@@Z</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,15 @@
+﻿  ETGG4804.cpp
+G:\SIMD Raytracing\ETGG4804\Consts.h(6,1): warning C4005: 'INFINITY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(88,1): message : see previous definition of 'INFINITY'
+G:\SIMD Raytracing\ETGG4804\Shapes.h(34,58): warning C4244: 'argument': conversion from 'float' to 'std::array<math2801::vec3,3>::size_type', possible loss of data
+G:\SIMD Raytracing\ETGG4804\Shapes.h(38,69): warning C4244: 'argument': conversion from 'float' to 'std::array<math2801::vec3,3>::size_type', possible loss of data
+G:\SIMD Raytracing\ETGG4804\Shapes.h(38,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\SIMD Raytracing\ETGG4804\Shapes.h(44,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\SIMD Raytracing\ETGG4804\ETGG4804.cpp(464,44): warning C4305: '=': truncation from 'double' to 'float'
+  Generating code
+  1 of 514 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+SDL2main.lib(SDL_windows_main.obj) : warning LNK4099: PDB '' was not found with 'SDL2main.lib(SDL_windows_main.obj)' or at ''; linking object as if no debug info
+  ETGG4804.vcxproj -> G:\SIMD Raytracing\x64\Release\ETGG4804.exe

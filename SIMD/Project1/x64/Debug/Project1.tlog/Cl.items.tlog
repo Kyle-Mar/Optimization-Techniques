@@ -1,0 +1,13 @@
+G:\SIMD\echo-nosimd.cpp;G:\SIMD\Project1\x64\Debug\echo-nosimd.obj
+G:\SIMD\Image.cpp;G:\SIMD\Project1\x64\Debug\Image.obj
+G:\SIMD\rgb2yuv.cpp;G:\SIMD\Project1\x64\Debug\rgb2yuv.obj
+G:\SIMD\SIMDAvx.cpp;G:\SIMD\Project1\x64\Debug\SIMDAvx.obj
+G:\SIMD\SIMDImage.cpp;G:\SIMD\Project1\x64\Debug\SIMDImage.obj
+G:\SIMD\SIMDOps.cpp;G:\SIMD\Project1\x64\Debug\SIMDOps.obj
+G:\SIMD\SIMDReduce.cpp;G:\SIMD\Project1\x64\Debug\SIMDReduce.obj
+G:\SIMD\SIMDSearch.cpp;G:\SIMD\Project1\x64\Debug\SIMDSearch.obj
+G:\SIMD\SIMDSoA.cpp;G:\SIMD\Project1\x64\Debug\SIMDSoA.obj
+G:\SIMD\SIMDString.cpp;G:\SIMD\Project1\x64\Debug\SIMDString.obj
+G:\SIMD\SIMDSwizzle.cpp;G:\SIMD\Project1\x64\Debug\SIMDSwizzle.obj
+G:\SIMD\similar.cpp;G:\SIMD\Project1\x64\Debug\similar.obj
+G:\SIMD\tempo50-noavx.cpp;G:\SIMD\Project1\x64\Debug\tempo50-noavx.obj

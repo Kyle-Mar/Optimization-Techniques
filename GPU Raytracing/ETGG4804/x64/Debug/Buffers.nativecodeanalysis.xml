@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Buffers.cpp</FILENAME>
+      <LINE>419</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'copyHelper'. </DESCRIPTION>
+    <FUNCTION>DeviceLocalBuffer::copyToCPUMemory</FUNCTION>
+    <DECORATED>?copyToCPUMemory@DeviceLocalBuffer@@QEAAXPEAX_K1@Z</DECORATED>
+    <FUNCLINE>411</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'copyHelper' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>414</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>416</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>418</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'count&gt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'copyHelper' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Buffers.cpp</FILENAME>
+      <LINE>445</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'copyHelper'. </DESCRIPTION>
+    <FUNCTION>DeviceLocalBuffer::copyFromCPUMemory</FUNCTION>
+    <DECORATED>?copyFromCPUMemory@DeviceLocalBuffer@@QEAAXPEAX_K1@Z</DECORATED>
+    <FUNCLINE>435</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>437</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'copyHelper' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>443</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'count&gt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Buffers.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'copyHelper' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

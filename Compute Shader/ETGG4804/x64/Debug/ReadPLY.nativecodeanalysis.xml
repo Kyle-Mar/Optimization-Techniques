@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ReadPLY.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'numVerts'.</DESCRIPTION>
+    <FUNCTION>readPly</FUNCTION>
+    <DECORATED>?readPly@@YA?AV?$vector@UTriangle@Shapes@@V?$allocator@UTriangle@Shapes@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Vvec3@math2801@@@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'numVerts' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'in.fail()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'line.find("end_header", 0)==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'numVerts' is an In/Out argument to 'std::vector&lt;Vertex,std::allocator&lt;Vertex&gt; &gt;::{ctor}' (declared at c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.36.32532\include\vector:616)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'numVerts' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ReadPLY.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'numFaces'.</DESCRIPTION>
+    <FUNCTION>readPly</FUNCTION>
+    <DECORATED>?readPly@@YA?AV?$vector@UTriangle@Shapes@@V?$allocator@UTriangle@Shapes@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Vvec3@math2801@@@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'numFaces' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'in.fail()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'line.find("end_header", 0)==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+        <FILENAME>ReadPLY.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'numFaces' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

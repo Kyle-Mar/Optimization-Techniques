@@ -1,0 +1,10 @@
+layout(std140,binding=0,row_major) uniform Uniforms {
+    vec3 eye;
+    vec3 right;
+    vec3 up;
+    vec3 look;
+    vec3 lightPosition;
+    vec2 delta;
+    ivec2 screenSize;
+    float tan_theta;
+};

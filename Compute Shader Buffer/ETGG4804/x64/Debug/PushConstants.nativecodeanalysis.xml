@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>parseMembers.h</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'parseMembers::MemberInfo::byteSize' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>parseMembers::MemberInfo::{ctor}</FUNCTION>
+    <DECORATED>??0MemberInfo@parseMembers@@QEAA@XZ</DECORATED>
+    <FUNCLINE>179</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>parseMembers::MemberInfo::byteSize</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

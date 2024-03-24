@@ -1,0 +1,307 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/text.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "55ae8df79a4809fd4cf16500bb2ed23dd86ade86ee8d1b0180421595acb53e96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/text.h"
+          },
+          "hashes": {
+            "sha-256": "6cbc1c083cfddf7f87d6c0024cc0359d42ae55d44af224d9191dcec7733c2f10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/vkhelpers.h"
+          },
+          "hashes": {
+            "sha-256": "7adf2270aae435e4626f8bdd806fdc83b6ad7fd2ac7b9b3d58e1bb7281dbac08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/vk.h"
+          },
+          "hashes": {
+            "sha-256": "e00897b702179ef944b173d8a1060b2b794eb11c77fd494c5d906424d919929b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vulkan/vulkan.h"
+          },
+          "hashes": {
+            "sha-256": "4b7a1e1e6788386a21f21b570c04c8e034c1e00a1cd07358864f8ba121dda418"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vulkan/vk_platform.h"
+          },
+          "hashes": {
+            "sha-256": "d9a851758af587525107589be8e894f5985fe64e34f4c25d77465a21a9e5a5a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vulkan/vulkan_core.h"
+          },
+          "hashes": {
+            "sha-256": "65480cb22c7fdc4e25ce52a5d5754802ea2986c78a1beb60f57cd36f698c04b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vk_video/vulkan_video_codec_h264std.h"
+          },
+          "hashes": {
+            "sha-256": "b7503b856edc08121744eae669f6846751095e64c26d227df42a132044c8df71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vk_video/vulkan_video_codec_h264std_decode.h"
+          },
+          "hashes": {
+            "sha-256": "ffd14e74829513636d218e06b810055dadeacb7aeab680d6e47084942ffd3a55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vk_video/vulkan_video_codec_h265std.h"
+          },
+          "hashes": {
+            "sha-256": "0730356028e72aac75f797e2a24d37c4de5c4212c3c0e6c022194ff422a1ae3c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/vulkansdk/1.3.250.0/include/vk_video/vulkan_video_codec_h265std_decode.h"
+          },
+          "hashes": {
+            "sha-256": "0409946a50db38f4ee7b6c6ca38a624c2d896196af4db45ff36c6a86e6990117"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/configparser.h"
+          },
+          "hashes": {
+            "sha-256": "ef935adf754f4c1c3ce146b10bee8ce591e4aa14674d84211436fad15a3155c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/consoleoutput.h"
+          },
+          "hashes": {
+            "sha-256": "5b4baa0049a2185a135c438e5fdad58f666b19906b7f2927ab32f3feb3a8220c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/vertexmanager.h"
+          },
+          "hashes": {
+            "sha-256": "d0ae808b2f49eef3f6a0241f8911b1375001a05393c2382ecc4a2aeb8a045606"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/math2801.h"
+          },
+          "hashes": {
+            "sha-256": "43c64fc2aff9caea867fa37771d93662710f286f7e50c4b7c5af2c5eaadaedf1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/framebuffer.h"
+          },
+          "hashes": {
+            "sha-256": "2a961fd23c87bbd51d4816667a55218ffee267945c08283acf82941d4267d89a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/renderpass.h"
+          },
+          "hashes": {
+            "sha-256": "d0278449c65ba206819c75fe71543b30cd69ae40de5b26d4e41b47ba1870f025"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/json.h"
+          },
+          "hashes": {
+            "sha-256": "e97753290a8a3e1ca6eac6d0995a5a83ce5ce8b3a5ce48147436be5dc6f4c9aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/ext/json11.h"
+          },
+          "hashes": {
+            "sha-256": "d7b9d0e17f30e251a5c83d1bbfe5d82ee285794d21771b31d14c22ba44353e21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/imagemanager.h"
+          },
+          "hashes": {
+            "sha-256": "e028ab5f7c6ea37262be22cb58b7374424cc4f7906e55ac54da08eca1e2adf4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/images.h"
+          },
+          "hashes": {
+            "sha-256": "a1e5973fdef91776c37ae6ee8d502a397a62fbc65df79870a680e12349be178a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/imagedecode.h"
+          },
+          "hashes": {
+            "sha-256": "29c931315caefd6817734a38fcaa54aa7a96f57c5434bf46ebce8845dc2e5db9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/imagescale.h"
+          },
+          "hashes": {
+            "sha-256": "cb13ffd6ab57c52afce64f7dbef72d340d8fbb33de507121929f071451d3ac38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/commandbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "b3ae85cda5cbd0330ad695c24f918e96c103a5670a809a063796ba0f033a211f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/buffers.h"
+          },
+          "hashes": {
+            "sha-256": "0531362e19b1a6bb8cc03ca584cf01644ba54f70c3b82169dd4402d6a1886f07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/descriptors.h"
+          },
+          "hashes": {
+            "sha-256": "2c3196a390f5d256dd31e90313f22a2e565cc9a29cf3b38e66910858eb36961a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/descriptorsetentry.h"
+          },
+          "hashes": {
+            "sha-256": "ebbc980a9f393b95272a21e1f93aeefcdd05431604e6d790bbd66f0a44f91a12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/pushconstants.h"
+          },
+          "hashes": {
+            "sha-256": "637ad0838d5cce7d239ff1d02983833a98584d268dada3da0bbee2fc3b64042b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/parsemembers.h"
+          },
+          "hashes": {
+            "sha-256": "71b71e39c412f9c086726e87484c15682c0079a85ea544e53e88c8db7ab0b923"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/pipelinelayout.h"
+          },
+          "hashes": {
+            "sha-256": "5d614072d1b241f0b53cb33a119aaf56506dec426e2498bdb3952a1602ff7d5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/shadermanager.h"
+          },
+          "hashes": {
+            "sha-256": "ad238a2c74a085341b7a15ab51223c6c1b7f6fb0810f39d5eae14d292a3f8e21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/graphicspipeline.h"
+          },
+          "hashes": {
+            "sha-256": "2aa44dab8939406650a671988bf39dbb45274f143a90e3ee69e4e70e996146f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/pipeline.h"
+          },
+          "hashes": {
+            "sha-256": "9b048775d74d727b1c1f522e2ba3fc387b728fe9086f198c7d48563c87af0218"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/samplers.h"
+          },
+          "hashes": {
+            "sha-256": "dc566b534538ce0f8b6c6c495ea116439d74d982783ea173b3491c3be9fd5e7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/cleanupmanager.h"
+          },
+          "hashes": {
+            "sha-256": "3110fbaf12425f55f00c3db73db6e2ee4aa9188e78570188f171295e9286fc22"
+          }
+        }
+      ]
+    }
+  ]
+}

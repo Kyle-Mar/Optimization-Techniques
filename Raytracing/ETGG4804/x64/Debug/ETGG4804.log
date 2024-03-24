@@ -1,0 +1,3 @@
+﻿  SIMDReduce.cpp
+C:\Users\Panasonic\Desktop\ETGG4804\ETGG4804\ETGG4804\SIMDReduce.cpp(11,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ETGG4804.vcxproj -> C:\Users\Panasonic\Desktop\ETGG4804\ETGG4804\x64\Debug\ETGG4804.exe

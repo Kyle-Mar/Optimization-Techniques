@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>889</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbir__get_filter_pixel_width</FUNCTION>
+    <DECORATED>?stbir__get_filter_pixel_width@@YAHW4stbir_filter@@M@Z</DECORATED>
+    <FUNCLINE>883</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>889</LINE>
+      <COLUMN>65</COLUMN>
+    </SFA>
+    <DEFECTCODE>33011</DEFECTCODE>
+    <DESCRIPTION>Unchecked upper bound for enum filter used as index..</DESCRIPTION>
+    <FUNCTION>stbir__get_filter_pixel_width</FUNCTION>
+    <DECORATED>?stbir__get_filter_pixel_width@@YAHW4stbir_filter@@M@Z</DECORATED>
+    <FUNCLINE>883</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>883</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>885</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition 'filter'. 'true' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>885</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>885</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>886</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Combination</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Branching based on condition '(unsigned __int64 )filter &lt; 6'. 'false' branch is taken
+Enum value 'filter' is checked for lower bound.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>886</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>886</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition '0'. 'false' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>886</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>886</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>888</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>888</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition 'result.stbir__use_upsampling'. 'true' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+        <FILENAME>stb_image_resize.h</FILENAME>
+        <LINE>889</LINE>
+        <COLUMN>65</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>904</LINE>
+      <COLUMN>77</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbir__get_coefficient_width</FUNCTION>
+    <DECORATED>?stbir__get_coefficient_width@@YAHW4stbir_filter@@M@Z</DECORATED>
+    <FUNCLINE>901</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>906</LINE>
+      <COLUMN>73</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbir__get_coefficient_width</FUNCTION>
+    <DECORATED>?stbir__get_coefficient_width@@YAHW4stbir_filter@@M@Z</DECORATED>
+    <FUNCLINE>901</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>1044</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbir__calculate_coefficients_upsample</FUNCTION>
+    <DECORATED>?stbir__calculate_coefficients_upsample@@YAXW4stbir_filter@@MHHMPEAUstbir__contributors@@PEAM@Z</DECORATED>
+    <FUNCLINE>1038</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>1096</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbir__calculate_coefficients_downsample</FUNCTION>
+    <DECORATED>?stbir__calculate_coefficients_downsample@@YAXW4stbir_filter@@MHHMPEAUstbir__contributors@@PEAM@Z</DECORATED>
+    <FUNCLINE>1092</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\ext\</FILEPATH>
+      <FILENAME>stb_image_resize.h</FILENAME>
+      <LINE>1677</LINE>
+      <COLUMN>66</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbir__decode_and_resample_downsample</FUNCTION>
+    <DECORATED>?stbir__decode_and_resample_downsample@@YAXPEAUstbir__info@@H@Z</DECORATED>
+    <FUNCLINE>1672</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>imagescale.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>imagescale::scaleImage</FUNCTION>
+    <DECORATED>?scaleImage@imagescale@@YA?AV?$vector@DV?$allocator@D@std@@@std@@HHAEAV23@HH@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>imagescale.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>imagescale::scaleImage</FUNCTION>
+    <DECORATED>?scaleImage@imagescale@@YA?AV?$vector@DV?$allocator@D@std@@@std@@HHAEAV23@HH@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

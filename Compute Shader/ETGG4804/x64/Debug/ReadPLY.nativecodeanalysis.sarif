@@ -1,0 +1,821 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'numVerts'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 31,
+                  "endLine": 65,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readPly",
+                  "decoratedName": "?readPly@@YA?AV?$vector@UTriangle@Shapes@@V?$allocator@UTriangle@Shapes@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Vvec3@math2801@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'numVerts' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'in.fail()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'line.find(\"end_header\", 0)==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'numVerts' is an In/Out argument to 'std::vector<Vertex,std::allocator<Vertex> >::{ctor}' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vector:616)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'numVerts' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'numFaces'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 25,
+                  "endLine": 71,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readPly",
+                  "decoratedName": "?readPly@@YA?AV?$vector@UTriangle@Shapes@@V?$allocator@UTriangle@Shapes@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Vvec3@math2801@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'numFaces' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'in.fail()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'line.find(\"end_header\", 0)==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'numFaces' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///G:/Compute Shader/ETGG4804/ReadPLY.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a6e6c354813da89ea904e47c70ae9040fa2e6574c34ae9f0d6d96ae409c4e3eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/etgg4804/shapes.h"
+          },
+          "hashes": {
+            "sha-256": "38fc5f696304cab5071bd0bdd45d71e2ab9b49c667789811e04e87992744a0a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/math2801.h"
+          },
+          "hashes": {
+            "sha-256": "43c64fc2aff9caea867fa37771d93662710f286f7e50c4b7c5af2c5eaadaedf1"
+          }
+        }
+      ]
+    }
+  ]
+}

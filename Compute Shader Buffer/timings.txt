@@ -1,0 +1,19 @@
+	GPU	CPU
+
+512KB
+
+512	257ms   25ms
+64KB    249ms   20ms
+n/a 
+
+8MB  
+
+512	246ms   362ms
+64KB    245ms   328ms
+4MB     474ms   350ms
+
+512MB
+
+512     1105ms  2139ms
+64KB    460ms   1890ms
+4MB     681ms   1899ms

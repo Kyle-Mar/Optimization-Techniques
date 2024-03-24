@@ -1,0 +1,9 @@
+﻿  ETGG4804.cpp
+G:\SIMD Raytracing\ETGG4804\Consts.h(6,1): warning C4005: 'INFINITY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(88,1): message : see previous definition of 'INFINITY'
+G:\SIMD Raytracing\ETGG4804\Shapes.h(34,58): warning C4244: 'argument': conversion from 'float' to 'std::array<math2801::vec3,3>::size_type', possible loss of data
+G:\SIMD Raytracing\ETGG4804\Shapes.h(38,69): warning C4244: 'argument': conversion from 'float' to 'std::array<math2801::vec3,3>::size_type', possible loss of data
+G:\SIMD Raytracing\ETGG4804\Shapes.h(38,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\SIMD Raytracing\ETGG4804\Shapes.h(44,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\SIMD Raytracing\ETGG4804\ETGG4804.cpp(465,44): warning C4305: '=': truncation from 'double' to 'float'
+  ETGG4804.vcxproj -> G:\SIMD Raytracing\x64\Debug\ETGG4804.exe

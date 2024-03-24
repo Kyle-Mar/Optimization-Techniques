@@ -1,0 +1,4 @@
+sphere 3 0 -7 1 1 0 0
+mesh cube.ply 0 -0.5 -7
+mesh torus.ply 0 2.5 -7
+mesh cone.ply -3 0 -7

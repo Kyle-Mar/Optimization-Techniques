@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+      <FILENAME>Images.cpp</FILENAME>
+      <LINE>436</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'numLayers_'.</DESCRIPTION>
+    <FUNCTION>Image::layoutTransition</FUNCTION>
+    <DECORATED>?layoutTransition@Image@@QEAAXW4VkImageLayout@@V?$optional@I@std@@V?$optional@PEAUVkCommandBuffer_T@@@4@11@Z</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>403</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>405</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>410</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>414</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>416</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>416</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'numLayers_' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>417</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!layer.has_value()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!mipLevel.has_value()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>434</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'numLayers_' is an In/Out argument to 'Image::_layoutTransition' (declared at g:\compute shader\framework\images.h:244)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Compute Shader\framework\</FILEPATH>
+        <FILENAME>Images.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'numLayers_' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

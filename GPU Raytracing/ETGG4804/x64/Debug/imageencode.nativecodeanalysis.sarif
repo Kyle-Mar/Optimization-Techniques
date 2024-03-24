@@ -1,0 +1,2017 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 55,
+                  "endLine": 470,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__write_pixels",
+                  "decoratedName": "?stbiw__write_pixels@@YAXPEAUstbi__write_context@@HHHHHPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 55,
+                  "endLine": 470,
+                  "endColumn": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__write_pixels",
+                  "decoratedName": "?stbiw__write_pixels@@YAXPEAUstbi__write_context@@HHHHHPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 55,
+                  "endLine": 470,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__write_pixels",
+                  "decoratedName": "?stbiw__write_pixels@@YAXPEAUstbi__write_context@@HHHHHPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 560,
+                  "startColumn": 56,
+                  "endLine": 560,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 560,
+                  "startColumn": 56,
+                  "endLine": 560,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 564,
+                  "startColumn": 42,
+                  "endLine": 564,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 44,
+                  "endLine": 570,
+                  "endColumn": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 44,
+                  "endLine": 570,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 574,
+                  "startColumn": 45,
+                  "endLine": 574,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 584,
+                  "startColumn": 47,
+                  "endLine": 584,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 597,
+                  "startColumn": 73,
+                  "endLine": 597,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_tga_core",
+                  "decoratedName": "?stbi_write_tga_core@@YAHPEAUstbi__write_context@@HHHPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 767,
+                  "startColumn": 50,
+                  "endLine": 767,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_hdr_core",
+                  "decoratedName": "?stbi_write_hdr_core@@YAHPEAUstbi__write_context@@HHHPEAM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 781,
+                  "startColumn": 64,
+                  "endLine": 781,
+                  "endColumn": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_hdr_core",
+                  "decoratedName": "?stbi_write_hdr_core@@YAHPEAUstbi__write_context@@HHHPEAM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 781,
+                  "startColumn": 64,
+                  "endLine": 781,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_hdr_core",
+                  "decoratedName": "?stbi_write_hdr_core@@YAHPEAUstbi__write_context@@HHHPEAM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'p'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 832,
+                  "startColumn": 19,
+                  "endLine": 832,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__sbgrowf",
+                  "decoratedName": "?stbiw__sbgrowf@@YAPEAXPEAPEAXHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 828,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 829,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'p' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 830,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '!!((p))')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 831,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'p')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 832,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!*arr')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 832,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'p', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 829,
+                  "startColumn": 14,
+                  "endLine": 829,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__sbgrowf",
+                  "decoratedName": "?stbiw__sbgrowf@@YAPEAXPEAPEAXHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 929,
+                  "startColumn": 30,
+                  "endLine": 929,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_zlib_compress",
+                  "decoratedName": "stbi_zlib_compress",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 947,
+                  "startColumn": 33,
+                  "endLine": 947,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_zlib_compress",
+                  "decoratedName": "stbi_zlib_compress",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1099,
+                  "startColumn": 32,
+                  "endLine": 1099,
+                  "endColumn": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__encode_png_line",
+                  "decoratedName": "?stbiw__encode_png_line@@YAXPEAEHHHHHHPEAC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1103,
+                  "startColumn": 30,
+                  "endLine": 1103,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbiw__encode_png_line",
+                  "decoratedName": "?stbiw__encode_png_line@@YAXPEAEHHHHHHPEAC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'line_buffer'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1159,
+                  "startColumn": 16,
+                  "endLine": 1159,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1130,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1131,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1132,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1134,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1135,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1135,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1137,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1140,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1144,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1144,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1145,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'line_buffer' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1145,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!line_buffer' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1146,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1146,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<y')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1147,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1148,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'force_filter>-1' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1152,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1152,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1152,
+                            "startColumn": 61
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1152,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1153,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1153,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'filter_type<5')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1154,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "'line_buffer' is an In/Out argument to 'stbiw__encode_png_line' (declared on line 1092)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1157,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1158,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1158,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<x*n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1159,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1158,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1158,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<x*n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1159,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Input to 'abs' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\corecrt_math.h:470)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1159,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'line_buffer', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'o'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1186,
+                  "startColumn": 4,
+                  "endLine": 1186,
+                  "endColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1130,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1131,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1132,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1133,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1134,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1135,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1135,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1137,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1140,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1144,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1144,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1145,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1145,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1146,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1146,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1175,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1176,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1177,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1178,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1181,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'out' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1182,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!out' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1183,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1185,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'o' receives the value of 'out'"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1186,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'o' is an In/Out argument to 'memmove' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vcruntime_string.h:50)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                          },
+                          "region": {
+                            "startLine": 1186,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'o', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1144,
+                  "startColumn": 29,
+                  "endLine": 1144,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1144,
+                  "startColumn": 29,
+                  "endLine": 1144,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1144,
+                  "startColumn": 29,
+                  "endLine": 1144,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1145,
+                  "startColumn": 34,
+                  "endLine": 1145,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1173,
+                  "startColumn": 7,
+                  "endLine": 1173,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1173,
+                  "startColumn": 7,
+                  "endLine": 1173,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1181,
+                  "startColumn": 28,
+                  "endLine": 1181,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+                },
+                "region": {
+                  "startLine": 1181,
+                  "startColumn": 28,
+                  "endLine": 1181,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi_write_png_to_mem",
+                  "decoratedName": "stbi_write_png_to_mem",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///G:/Compute Shader/framework/ext/stb_image_write.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f92f4e7fa243a7bef138ee10b541e41ef1f833e52f25d408c3a1675d419c714d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/imageencode.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9095bd64c46e0d6590d2818cf5189a6c3c18dbfe9bd9858e079c9d732f63c689"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///g:/compute shader/framework/imageencode.h"
+          },
+          "hashes": {
+            "sha-256": "9c757f55337d37887461c10ab7f71e4f24c048cacbeaa4834ae6d28c4e7bce17"
+          }
+        }
+      ]
+    }
+  ]
+}

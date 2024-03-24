@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>Pixel.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Pixel::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Pixel::{ctor}</FUNCTION>
+    <DECORATED>??0Pixel@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Pixel::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>Pixel.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Pixel::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Pixel::{ctor}</FUNCTION>
+    <DECORATED>??0Pixel@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Pixel::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>Pixel.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Pixel::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Pixel::{ctor}</FUNCTION>
+    <DECORATED>??0Pixel@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Pixel::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>Pixel.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Pixel::a' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Pixel::{ctor}</FUNCTION>
+    <DECORATED>??0Pixel@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Pixel::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>Pixel.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>set_pixel</FUNCTION>
+    <DECORATED>?set_pixel@@YAXPEAUSDL_Surface@@HHUPixel@@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>Pixel.h</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>set_pixel</FUNCTION>
+    <DECORATED>?set_pixel@@YAXPEAUSDL_Surface@@HHUPixel@@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ymm.h</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ymm::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ymm::{ctor}</FUNCTION>
+    <DECORATED>??0ymm@@QEAA@XZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ymm::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ymm.h</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ymmi8::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ymmi8::{ctor}</FUNCTION>
+    <DECORATED>??0ymmi8@@QEAA@XZ</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ymmi8::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ymm.h</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ymmu8::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ymmu8::{ctor}</FUNCTION>
+    <DECORATED>??0ymmu8@@QEAA@XZ</DECORATED>
+    <FUNCLINE>205</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ymmu8::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ymm.h</FILENAME>
+      <LINE>270</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ymmi16::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ymmi16::{ctor}</FUNCTION>
+    <DECORATED>??0ymmi16@@QEAA@XZ</DECORATED>
+    <FUNCLINE>270</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ymmi16::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ymm.h</FILENAME>
+      <LINE>329</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ymmi32::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ymmi32::{ctor}</FUNCTION>
+    <DECORATED>??0ymmi32@@QEAA@XZ</DECORATED>
+    <FUNCLINE>329</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ymmi32::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>G:\Compute Shader\ETGG4804\</FILEPATH>
+      <FILENAME>ymm.h</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ymmi64::X' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ymmi64::{ctor}</FUNCTION>
+    <DECORATED>??0ymmi64@@QEAA@XZ</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ymmi64::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,165 @@
+#version 450 core
+
+#extension GL_EXT_debug_printf : enable
+#extension GL_GOOGLE_include_directive : enable
+#include "uniforms.txt"
+
+layout(local_size_x=64,local_size_y=1,local_size_z=1) in;
+
+struct Triangle {
+    vec4 color;
+    vec4 a;
+    vec4 b;
+    vec4 c;
+};
+
+layout(std430,binding=1) buffer Foo {
+    Triangle triangles[];
+};
+
+layout(std430,binding=2) buffer Foo2 {
+    uint framebuffer[];   //32 bits per element (RGBA)
+};
+
+
+bool traceOneRay( vec3 s, vec3 v,
+        out vec3 ip, out vec3 N,
+        out vec3 objcolor);
+
+vec4 shadePixel(vec3 rayStart, vec3 ip,
+        vec3 N, vec3 objcolor);
+
+void main(){
+    ivec3 mynum = ivec3(gl_GlobalInvocationID);
+    float x = -tan_theta + delta.x * mynum.x;
+    float y = -tan_theta + delta.y * mynum.y;
+    vec3 rayDir = look + x*right + y*up;
+    vec3 ip;
+    vec3 N;
+    vec3 objcolor;
+    vec4 C;
+    if( traceOneRay(eye, rayDir, ip, N, objcolor ) )
+        //C = vec4(1,1,0,1);
+        C = shadePixel(eye, ip, N, objcolor);
+    else
+        C = vec4(0.5,0.5,0.5,1);
+    int idx = mynum.y * screenSize.x + mynum.x;
+
+    framebuffer[idx] = packUnorm4x8(C);
+}
+
+
+void getTriangleNormal(Triangle tri, out vec3 normal)
+{
+   //assume vertices go in CCW order
+   //       a
+   //      /|
+   //     / |
+   //    /  |
+   //  b/___|c
+
+   vec4 v1 = tri.b-tri.a;
+   vec4 v2 = tri.c-tri.a;
+   vec3 v1_3 = vec3(v1.xyz);
+   vec3 v2_3 = vec3(v2.xyz);
+   normal = normalize(cross(v1_3, v2_3));
+
+}
+
+float Area(Triangle tri) {
+    vec3 edge0 = (tri.b.xyz - tri.a.xyz).xyz;
+    vec3 edge1 = (tri.c.xyz - tri.b.xyz).xyz;
+    return 0.5 * length(cross(edge0, edge1));
+}
+
+
+bool traceOneRay(vec3 rayStart, vec3 rayDir, out vec3 ip, out vec3 normal, out vec3 objcolor){
+    bool didIntersect = false;
+    float closestT = 1E12;
+    ivec3 mynum = ivec3(gl_GlobalInvocationID);
+
+    for(uint i = 0; i < triangles.length(); ++i){
+        float dist = 1E12;
+        vec3 n;
+
+        Triangle triangle = triangles[i];
+        getTriangleNormal(triangle, n);
+
+        float denom = dot(n, rayDir);
+        //solve for the point on the plane on which the triangle exists "supporting plane"
+        float d = -dot(n, vec3(triangle.a.x, triangle.a.y, triangle.a.z));
+        
+        if(denom == 0.0){
+            continue;
+        }
+
+        float t = -(d+dot(n, rayStart))/denom; 
+
+
+        if (t<0.0){
+            continue;
+        }
+
+      
+        dist = t;
+        ip = rayStart + t * rayDir;
+
+        float area = Area(triangle);
+        
+        
+        float sub_triangles_total_area = 0;
+
+        vec3 a1= (triangle.b - triangle.a).xyz;
+        vec3 a2 = (ip - (triangle.a.xyz));
+
+        vec3 b1= (triangle.c - triangle.b).xyz;
+        vec3 b2 = (ip - (triangle.b.xyz));
+
+        vec3 c1= (triangle.a - triangle.c).xyz;
+        vec3 c2 = (ip - (triangle.c.xyz));
+        float total = 0.5 * length(cross(a1, a2)) + 0.5 * length(cross(b1, b2)) + 0.5 * length(cross(c1, c2));
+
+
+        if(mynum.x < 1){
+            //debugPrintfEXT("%f,%f,%f", n.x, n.y, n.z);
+        }
+
+        // is point outside of triangle
+        // is it close for floating point error.
+        if ((total / area) < 1.001) {
+            if (t < closestT){
+                objcolor = triangle.color.xyz;
+                closestT = dist;
+                didIntersect=true;
+                normal = n;
+            }
+
+        }
+
+
+    }
+
+    return didIntersect;
+}
+
+vec4 shadePixel(vec3 rayStart, vec3 ip,
+        vec3 N, vec3 objcolor)
+{
+    vec3 L = normalize( lightPosition-ip );
+    float dp = dot(L,N);
+    float sp;
+    if( dp < 0 ){
+        dp = 0.0;
+        sp=0.0;
+    } else {
+        vec3 V = normalize(rayStart - ip);
+        vec3 R = reflect( -L,N );
+        sp = dot(V,R);
+        if( sp < 0 )
+            sp = 0.0;
+        sp = pow(sp, 16.0 );
+    }
+    vec3 tmp = dp * objcolor + vec3(sp,sp,sp);
+    tmp = min(vec3(1),tmp);
+    return vec4(tmp,1.0);
+}
